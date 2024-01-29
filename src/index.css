@@ -1,0 +1,74 @@
+
+*::before,
+*::after,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+background-color: whitesmoke;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-top: 7px;
+
+}
+
+#taskInput{
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 300px;
+    height: 40px;
+    margin: 20px;
+}
+
+.createbtn{
+   background-color: wheat; 
+   color: white;
+   border: none;
+   border-radius: 10px;
+   width: 70px;
+   height: 30px;
+ cursor: pointer;
+}
+
+.flex{
+    display: flex;
+gap: 30px;
+
+}
+
+.headerBg{
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+}
+
+.header{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskBox{
+    position: relative;
+    padding: 4px;
+    margin-top: 8px;
+    border: .5px solid grey;
+    border-radius: 5px;
+    box-shadow: inset;
+    cursor: pointer;
+}
+
+.taskbtn{
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    border: none;
+    cursor: pointer;
+}
