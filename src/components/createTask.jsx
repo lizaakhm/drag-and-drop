@@ -4,7 +4,7 @@ function CreateTask({ tasks, setTasks }) {
   const [task, setTask] = useState({
     id: "",
     name: "",
-    status: "todo", // todo, in progress, or done
+    status: "todo", 
   });
 
   const handleSubmitTask = (e) => {
